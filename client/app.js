@@ -15,6 +15,8 @@ socket.on('frame', function (data) {
   var str = String.fromCharCode.apply(null, uint8Arr);
   var base64String = btoa(str);
 
+  //console.log(new Date());
+
   img.onload = function () {
     context.drawImage(this, 0, 0, canvas.width, canvas.height);
   };

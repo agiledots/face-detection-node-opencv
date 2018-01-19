@@ -13,6 +13,9 @@ Click [here](http://youtu.be/v2SY0naPBFw) to see it in action.
 
 ## Installing Node.js packages
 
+* Download OpenCV from [here](https://opencv.org/opencv-3-4.html)
+* Extract it to your C: drive, And set environment variables `OPENCV_DIR = C:\OpenCV\build\x64\vc15 `
+
 * Navigate to the `server` directory
 * To install the packages: `npm install`
 
@@ -20,6 +23,6 @@ Click [here](http://youtu.be/v2SY0naPBFw) to see it in action.
 
 * Make sure you are still in the `server` directory
 * To run the server: `node server.js`
-* To run the demo locally, open a browser and go to `localhost:8080`
+* To run the demo locally, open a browser and go to `localhost:9000`
 
 The app should be up and running!
